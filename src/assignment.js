@@ -43,7 +43,7 @@ let count = 0;
     // }
 
     arrayOfNumbers.forEach((value) => {
-        if (value % 2 == 0) {
+        if (value % 2 === 0) {
             count++;
         }
     });
